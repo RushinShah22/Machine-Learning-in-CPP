@@ -11,9 +11,9 @@ class data_handler{
     std::vector<data *> * testing_data;
     std::vector<data *> * validation_data;
 
-    const double TRAIN_PERCENTAGE = 0.75;
+    const double TRAIN_PERCENTAGE = 0.79;
     const double TEST_PERCENTAGE = 0.20;
-    const double VALIDATION_PERCENTAGE = 0.05;
+    const double VALIDATION_PERCENTAGE = 0.01;
     uint32_t num_of_classes;
 
     public:

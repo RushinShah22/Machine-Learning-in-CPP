@@ -61,6 +61,7 @@ void data_handler::read_features(std::string path){
             data_array->push_back(datum);
         }
         printf("Done reading features.\n");
+
     }else{
         printf("Failed to locate file.\n");
         exit(1);
